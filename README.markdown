@@ -3,7 +3,7 @@
 **By [Brightcove](http://brightcove.com) and [A Different Engine](http://adifferentengine.com)**
 
 ## Overview: ##
-This template provides a jump-start to getting your Brightcove content published on Samsung devices. This is not meant to be a drop in application.To begin publishing with this application, you need the following:
+Sample app for jumpstarting Samsung SmartTV development.
 
 _This is not meant to be a plug and play solution. Its meant to jump start developers on the Samsung Platform_
 
