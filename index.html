@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<head>
+  	<meta charset="utf-8">
+
+  	<title></title>
+  	<meta name="description" content="A Different Engine"/>
+  	<meta name="author" content="A Different Engine LLC" />
+	<meta name="gtv-autozoom" content="off" />
+  	<link rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript">
+	
+		// This is stupid, I can just let them fail but I don't like the errors.
+		if( navigator.userAgent.search(/Maple/) > -1) {			
+			document.write('<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></scri'+'pt>');
+			document.write('<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Plugin.js"></scri'+'pt>');
+			document.write('<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></scri'+'pt>');
+			document.write('<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/Plugin/Define.js"></scri'+'pt>');
+			document.write('<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></scri'+'pt>');
+			document.write('<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/Util/Include.js"></scri'+'pt>');
+			document.write('<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/Util/Language.js"></scri'+'pt>');
+			document.write('<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/jquery.js"></scri'+'pt>');
+		} 
+	</script>
+    <script type="text/javascript">
+		// Have to use the Samsung JQuery for cross domain AJAX
+        if(typeof($) == "undefined" ) {
+            document.write("<script src=\"js/Common/vendor/jquery-1.6.2.min.js\"></sc" + "ript>");
+        }
+        
+    </script>
+
+    
+	<!--  VENDOR -->
+	<script src="js/Common/vendor/underscore-min.js"					type="text/javascript"></script>
+	<script src="js/Common/vendor/backbone-min.js"						type="text/javascript"></script>
+	<script src="js/Common/vendor/jquery-ui-1.8.14.effects.min.js"		type="text/javascript"></script>
+	<script src="js/Common/vendor/jqplugins/jLog.min.js" 				type="text/javascript"></script>
+	<script src="js/Common/vendor/jqplugins/jquery.waitforimages.js"	type="text/javascript"></script>
+	
+	<!-- Application Config -->
+	<script src="js/Common/enginelite/TVEngine.js"					type="text/javascript"></script>
+	<script src="js/Common/enginelite/enginelite.keyhandler.js"		type="text/javascript"></script>
+	<script src="js/Common/enginelite/enginelite.navigation.js"		type="text/javascript"></script>
+	<script src="js/Common/enginelite/enginelite.platforms.js"		type="text/javascript"></script>
+	<script src="js/Common/enginelite/enginelite.data.js"			type="text/javascript"></script>
+	<script src="js/Common/enginelite/enginelite.mediaplayer.js"	type="text/javascript"></script>
+	
+	<!-- Supported Platforms -->
+	<script src="js/Common/enginelite/platforms/enginelite.platform.samsung.js"				type="text/javascript"></script>
+	<script src="js/Common/enginelite/platforms/enginelite.platform.samsung.low.js"			type="text/javascript"></script>
+	
+	<script type="text/javascript">
+		// Should be safe to run before page load.
+		TVEngine.Platforms.init();
+		if(typeof(Common) != 'undefined' ) {
+			window.$W = new Common.API.Widget();
+		}
+		$(document).ready(function() {
+			if( typeof($W) != 'undefined' && _.isFunction($W.sendReadyEvent)) {
+				$W.sendReadyEvent();
+			}
+		});
+		
+	</script>
+	<script src="js/application.js"></script>
+	<script src="js/menus/brightcove.mainmenu.js" 		type="text/javascript"></script>
+	<script src="js/menus/brightcove.popupmenu.js" 		type="text/javascript"></script>
+	<script src="js/menus/enginelite.samplemenus.js"	type="text/javascript"></script>
+
+	
+	<!-- Tracking, and Ad Vending -->
+	<script src="js/Common/enginelite/trackers/enginelite.tracking.google.js" 	type="text/javascript"></script>
+	<script src="js/Common/enginelite/trackers/enginelite.tracking.omniture.js" type="text/javascript"></script>
+	<script src="js/Common/enginelite/advendors/enginelite.advendors.vast.js" 	type="text/javascript"></script>
+	
+	<!-- REPLACE THIS WITH YOUR CODE -->
+	<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-28597822-1']); //Replace with your tracking ID.
+		_gaq.push(['_trackPageview']);
+		_gaq.push(['_setDomainName', 'brightcove.adifferentengine.com']);
+		_gaq.push(['_trackEvent', "LOADED", "SOMETHING"]);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
+	
+
+	
+	<object id="pluginPlayer" border=0 classid="clsid:SAMSUNG-INFOLINK-PLAYER"></object>
+	<object id="pluginAudio" border=0 classid="clsid:SAMSUNG-INFOLINK-AUDIO"></object>
+	<object id="pluginTVMW" border=0 classid="clsid:SAMSUNG-INFOLINK-TVMW"></object>
+	
+
+</head>
+<body>
+	
+	<script type="text/javascript">
+		$i("loading.png", {id: "backgroundImage"});
+	</script>
+	<div id="wrapper">
+		
+		<div id="content">
+			
+
+			<div id="videoPage">
+				<script type="text/javascript">
+					// $i is a shortcut, basically just grabs an image for the correct
+					// resolution. default path is images/[width]x[height]/[image name]
+					// adding more paths should work fine.  Associative Array items, 
+					// are translated into attributes
+					// $i("backgroundImage.jpg", {id: "backgroundImage"});
+					$i("videoheader.png", { id: "videoheader" });
+				</script>
+				<div id="progressWrapper">
+					<div id="indicator" class="buffering">&nbsp;</div>
+				</div>
+				<div id="currentProgressTime">
+				</div>
+				<h3 id="nowPlayingText">Now Playing:</h3>
+				<h2 id="nowPlayingTitle">Somethign with Fish</h2>
+				<div id="videoNavbar" class="navbar">
+					<div class="controlHints">
+						<img src="images/navbar/white/help_pause.png" />
+						<img src="images/navbar/white/help_ff_rew.png" />
+					</div>
+					<div class="buttonOptions">
+						<div class="navbutton backButton">
+							Back
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="landingPage">
+				
+				<script type="text/javascript">
+					// $i is a shortcut, basically just grabs an image for the correct
+					// resolution. default path is images/[width]x[height]/[image name]
+					// adding more paths should work fine.  Associative Array items, 
+					// are translated into attributes
+					// $i("backgroundImage.jpg", {id: "backgroundImage"});
+					$i("overlay.png", { id: "overlay" });
+				</script>
+				
+				<div id="innerContent">
+					<div id="pager">
+						<span id="paging">1 of 5</span>
+					</div>
+					<div id="videoInfo">		
+						<h1 id="focusVideoTitle">This is the current Video</h1>
+						<div class="h2" id="focusVideoDescription">
+							This is the current video description here its a whole lot of text
+						</div>
+					</div>
+					<script type="text/javascript">
+					// $i is a shortcut, basically just grabs an image for the correct
+					// resolution. default path is images/[width]x[height]/[image name]
+					// adding more paths should work fine.  Associative Array items, 
+					// are translated into attributes
+					$i("left_arrow.png", {id: "leftArrow"});
+					$i("right_arrow.png", { id: "rightArrow" });
+					$i("up_arrow.png", {id: "upArrow"});
+					$i("down_arrow.png", {id: 'downArrow'});
+					$i("playicon.png", {id: 'playicon'});
+				</script>
+			
+					<div id="playlistsWrapper">
+						<div id="playlists"></div>
+					</div>
+					<div id="playlistsNavWrapper">
+						<ul id="playlistsNav">
+						</ul>
+					</div>
+				</div>
+				<script type="text/javascript">
+					// $i is a shortcut, basically just grabs an image for the correct
+					// resolution. default path is images/[width]x[height]/[image name]
+					// adding more paths should work fine.  Associative Array items, 
+					// are translated into attributes
+					// $i("backgroundImage.jpg", {id: "backgroundImage"});
+					$i("logo.png", { id: "logo" });
+				</script>
+				<div id="landingNavbar" class="navbar">
+					<div class="buttonOptions">
+						<div class="navbutton aButton">
+							More Info
+						</div>
+						<div class="navbutton backButton">
+							Exit
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+		</div>
+
+		<div id="videoInfoWrapper">
+		<div id="videoInfoBox">
+			<img />
+			<h1></h1>
+			<p>
+			</p>
+			<p>
+			</p>
+			<div id="detailTags">
+				
+			</div>
+			<div class="infoNavBar">
+				<div class="buttonOptions">
+				<div class="navbutton backButton">
+					Close
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</div>
+	<!-- Omniture Tracking  -->
+	<!-- SiteCatalyst code version: H.24.2.
+	Copyright 1996-2012 Adobe, Inc. All Rights Reserved
+	More info available at http://www.omniture.com
+	
+	
+	You need to generate your own "s_code.js" file in the SiteCatalyst tools.
+	
+	See
+	https://developer.omniture.com/en_US/get-started/sitecatalyst-tagging#step-1
+	 -->
+	
+	<script language="JavaScript" type="text/javascript" src="js/Common/vendor/Omniture/s_code.js"></script>
+	<script language="JavaScript" type="text/javascript">
+	s.pageName="Brightcove Samsung Starter Main Page"
+	s.server=""
+	s.channel=""
+	s.pageType=""
+	s.prop1=""
+	s.prop2=""
+	s.prop3=""
+	s.prop4=""
+	s.prop5=""
+	/* Conversion Variables */
+	s.campaign=""
+	s.state=""
+	s.zip=""
+	s.events="videoPlay"
+	s.linkTrackEvents="videoPlay"
+	s.products=""
+	s.purchaseID=""
+	s.eVar1=""
+	s.eVar2=""
+	s.eVar3=""
+	s.eVar4=""
+	s.eVar5=""
+	/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+	var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+	<script language="JavaScript" type="text/javascript"><!--
+	if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+	//--></script><noscript><img src="http://partnercjohnstondev.sbx1.2o7.net/b/ss/cjohnstest2/1/H.24.2--NS/0"
+	height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
+	<!-- End SiteCatalyst code version: H.24.2. -->
+</body>

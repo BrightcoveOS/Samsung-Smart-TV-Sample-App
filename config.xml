@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget>
+    <ThumbIcon>images/icons/App_106.png</ThumbIcon>
+    <BigThumbIcon>images/icons/App_115.png</BigThumbIcon>
+    <ListIcon>images/icons/App_85.png</ListIcon>
+    <BigListIcon>images/icons/App_95.png</BigListIcon>
+	<category itemtype="string"></category>
+	<type itemtype="string">user</type>
+	<cpname itemtype="string"></cpname>
+	<cplogo itemtype="string"></cplogo>
+	<cpauthjs itemtype="string"></cpauthjs>
+	<ver itemtype="string"></ver>
+	<mgver itemtype="string"></mgver>
+	<fullwidget itemtype="boolean">y</fullwidget>
+	<srcctl itemtype="boolean">y</srcctl>
+	<ticker itemtype="boolean">n</ticker>
+	<childlock itemtype="boolean">n</childlock>
+	<audiomute itemtype="boolean">n</audiomute>
+	<videomute itemtype="boolean">n</videomute>
+	<dcont itemtype="string">y</dcont>
+	<widgetname itemtype="string">Brightcove Sample App</widgetname>
+	<description itemtype="string"></description>
+	<width itemtype="number">960</width>
+	<height itemtype="number">540</height>
+	<author itemtype="group">
+		<name itemtype="string"></name>
+		<email itemtype="string"></email>
+		<link itemtype="string"></link>
+		<organization itemtype="string"></organization>
+	</author>
+</widget>

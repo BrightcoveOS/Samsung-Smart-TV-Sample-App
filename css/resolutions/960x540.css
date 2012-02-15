@@ -1,0 +1,333 @@
+body {
+	color: white;
+	font-family: Helvetica, Arial, Verdana, Sans-Serif;
+	height: 540px;
+	width: 960px;
+	margin: 0;
+}
+video {
+	z-index: 0;
+	height: 540px;
+	width: 960px;
+}
+#wrapper {
+	position: absolute;
+	top: 0; left: 0;
+	text: black;
+	height: 540px;
+	width: 960px;
+	overflow: hidden;
+	display: none;
+	z-index: 1;
+}
+#videoheader {
+	position: absolute;
+	top: 7px; left: 7px;
+}
+#backgroundImage {
+	position: absolute;
+	top: 0; left: 0;
+	height: 540px; width: 960px;
+}
+
+#content {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 960px; height: 540px;
+	color: white;
+}
+
+#innerContent {
+	position: absolute;
+	top: 0px; left: 0;
+	width: 100%;
+}
+
+#overlay {
+	position: absolute;
+	top: 0; left: 0;
+}
+#logo {
+	position: absolute;
+	top: 50px; left: 50px; 
+	z-index: 110;
+}
+#upArrow {
+    left: 91px;
+    position: absolute;
+    top: 307px;
+}
+#downArrow {
+	position: absolute;
+	top: 480px; left: 91px;
+}
+#leftArrow {
+    left: 199px;
+    position: absolute;
+    top: 297px;
+}
+#rightArrow {
+	position: absolute;
+	top: 297px; left: 859px;	
+}
+#pager {
+    color: black;
+    height: 30px;
+    left: 734px;
+    line-height: 22px;
+    position: absolute;
+    top: 428px;
+    width: 100px;
+}
+#paging {
+    color: white;
+    display: inline-block;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    margin: 0;
+    text-align: right;
+    width: 100%;
+}
+#playicon {
+    left: 311px;
+    position: absolute;
+    top: 335px;
+    z-index: 100;
+}
+#pageTitle {
+	color: #F1F1F1;
+    font-family: Arial,sans-serif;
+    font-size: 28px;
+    height: 34px;
+    line-height: 34px;
+    margin: 0 0 20px;
+    padding: 0;
+}
+#playlistsWrapper {
+    height: 114px;
+    left: 248px;
+    overflow: hidden;
+    position: absolute;
+    top: 311px;
+    width: 590px;
+    z-index: 50;
+}
+#playlists {
+	position: absolute;
+	top: 0;left:0;
+	width: 50000px;
+	height: 100000px;
+}
+div.videoCategory {
+	height: 183px;
+	width: 400000px;
+	margin-bottom: 25px;
+}
+div.vidItem {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+div.vidItem img {
+    border: 3px solid #000000;
+    height: 102px;
+    width: 182px;
+}
+
+#videoInfo {
+    left: 248px;
+    position: absolute;
+    top: 428px;
+    width: 767px;
+}
+video {
+	height: 540px; width: 960px;
+	position: absolute;
+	top: 0; left: 0;
+}
+#videoInfo h1 {
+  	color: #fff;
+    font-family: Arial,serif;
+    font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 4px;
+	width: 590px;
+}
+#videoInfo .h2 {
+    color: #BFBFBF;
+    font-size: 16px;
+    height: 36px;
+    line-height: 19px;
+    text-overflow: ellipsis;
+    width: 590px;
+}
+
+#playlistsNavWrapper {
+    height: 139px;
+    left: 88px;
+    overflow: hidden;
+    position: absolute;
+    top: 325px;
+    width: 99px;
+}
+#playlistsNav {
+	position: absolute;
+	top: 0; left: 0 ;
+
+}
+#playlistsNav li {
+    border-bottom: 1px solid rgba(82, 82, 82, 0.7);
+    font-size: 15px;
+    padding: 6px 0 6px 4px;
+    width: 95px;
+}
+#playlistsNav > li.focused {
+	color: #00bff3;
+}
+#focusVideoDescription {
+	display: block;
+	overflow:hidden;
+	width: 100%;
+	line-height: 24px;
+	height: 48px;
+	text-overflow: ellipsis;
+}
+#videoPage {
+	height: 100%;
+	width: 100%;
+	display:none;
+}
+#progressWrapper {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    border-radius: 8px 8px 8px 8px;
+    height: 3px;
+    left: 489px;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 67px;
+    width: 262px;
+}
+#currentProgressTime {
+    color: white;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    position: absolute;
+    right: 75px;
+    top: 54px;
+}
+#nowPlayingText {
+    font-size: 14px;
+    left: 489px;
+    position: absolute;
+    top: 25px;
+}
+#nowPlayingTitle {
+    font-size: 18px;
+    left: 489px;
+    font-weight: bold;
+    position: absolute;
+    top: 42px;
+}
+#indicator {
+    background: none repeat scroll 0 0 rgba(0, 191, 243, 0.7);
+    font-size: 1px;
+    height: 6px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0px;
+}
+#videoNavbar {
+	background: url("../../images/960x540/navbar_back.png");
+	color: white;
+}
+.navbar {
+	position: absolute;
+	top: 504px; left: 0px;
+	width: 100%; height: 36px;
+}
+.controlHints {
+	position: absolute;
+	top: 5px; left: 20px;
+}
+.buttonOptions {
+	position: absolute;
+	top: 4px; right: 20px;
+}
+.buttonOptions div {
+	height: 28px; line-height: 28px;
+}
+.navbutton {
+	padding-left: 33px;
+	display:inline-block;
+	margin-right: 15px;
+}
+.backButton {
+	background: url(../../images/navbar/white/help_back.png) no-repeat;
+}
+.aButton {
+	background: url(../../images/navbar/buttonicons/help_icon_a.png) no-repeat;
+}
+
+/**
+ YUME Tags
+**/
+#video_box {
+	height: 540px; width: 960px;
+}
+
+#videoInfoWrapper {
+	height: 100%;
+	width: 100%;
+		display: none;
+}
+#videoInfoBox {
+	position: absolute;
+	top: 120px; left: 255px;
+	height: 300px; width: 510px;
+	background: rgba(0,0,0,0.85);
+	border: 1px solid #c9c9c9;
+	z-index: 2001;
+
+}
+#videoInfoBox img {
+	position: absolute;
+	top: 15px; left: 20px;
+	height: 90px; width: 120px;
+}
+#videoInfoBox h1 {
+	position: absolute;
+	top: 15px; left: 160px;
+}
+#videoInfoBox p {
+	position: absolute;
+	top: 120px; left: 15px;
+	margin-right: 15px;
+	color: #BFBFBF;
+}
+
+#detailTags {
+	position: absolute;
+	bottom:40px; left: 15px;
+	height: 24px; line-height: 24px;
+	height: 16px; color: #BFBFBF;
+}
+
+#videoInfoBox .infoNavBar {
+	width: 100%; background-color: black;
+	position: absolute; bottom: 0; left: 0;
+	height: 36px;
+}
+#videoInfoBox .backButton {
+	float: right;
+}
+#vidBack {
+	background: #CC0000; /*rgba(200,0,0,0.6); */
+	margin: 0;
+	height: 100%; width: 100%;
+	z-index: 2000;
+	
+}
