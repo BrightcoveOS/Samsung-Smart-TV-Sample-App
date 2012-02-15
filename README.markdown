@@ -3,7 +3,7 @@
 **By [Brightcove](http://brightcove.com) and [A Different Engine](http://adifferentengine.com)**
 
 ## Overview: ##
-Sample app for jumpstarting Samsung SmartTV development.
+Sample app for jumpstarting Samsung SmartTV development.  While this application is primarily focused on the Samsung platform the code is portable enough that it should work with little modification on the GoogleTV browser and LG TVs as well.
 
 _This is not meant to be a plug and play solution. Its meant to jump start developers on the Samsung Platform_
 
