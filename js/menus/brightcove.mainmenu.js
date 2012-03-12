@@ -161,10 +161,8 @@
 			});
 			this.currentY++;
 			this.resetItems();
-				$("#playlists").css({left: 0});
-			$("#playlists").animate({
-				top: '-=208'
-			})
+			$("#playlists").css({left: 0});
+			$("#playlists").animate({ top: '-=208' })
 			$("#playlistsNav").animate({
 				top: -(this.currentY * $("#playlistsNav li:first").outerHeight(true))
 			},null,null, function() {
@@ -192,6 +190,7 @@
 		showDetails();
 	}
 	
-	menu.defaultMenu = true;
+	
+	// menu.defaultMenu = true;
 	TVEngine.Navigation.addMenu(menu);
 })(TVEngine);

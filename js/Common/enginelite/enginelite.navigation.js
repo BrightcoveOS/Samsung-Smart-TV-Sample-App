@@ -22,6 +22,11 @@ TVEngine.Navigation = {
 		this.currentMenu.fireItem(this.currentFocus.item, 'onBlur');
 	},
 	
+	start: function() {
+		this.currentMenu.setFocused();
+		this.enable();
+	},
+	
 	// Register with the KeyHandler so we get key events.
 	init: function() {
 		$log("<<< INITIALIZING NAVIGATION >>>");
@@ -29,10 +34,11 @@ TVEngine.Navigation = {
 		if(!this.currentMenu) {
 			if(this.defaultMenu) {
 				this.currentMenu = this.defaultMenu;
-			} else {
+			} else if (this.menus.length > 0 ) {
 				this.currentMenu = this.menus[0];
+			} else {
+				throw "Can't init navigation, no menus have been added."
 			}
-			if(!this.currentMenu) return;
 			this.currentFocus = {
 				menu: this.currentMenu, item: this.currentMenu.getDefaultItem()
 			}
@@ -71,7 +77,8 @@ TVEngine.Navigation = {
 	},
 	
 	setFocus: function( menu,  item ) {
-		var item = menu.mainOnly ? item:"main";
+		$log(" Setting focus to " + menu + " / " + item);
+		var item = this.menus[menu].mainOnly() ? "main":item;
 		if(_.isNull(this.menus[menu]) || _.isNull(this.menus[menu].items[item]) ) {
 			$error("<<< Tried to set menu to non-existant menu "+menu+" or non existant item "+menu+"/"+item+">>> ");
 			return;
@@ -79,18 +86,28 @@ TVEngine.Navigation = {
 		// Note we don't add this until we leave it
 		this.History.addItemToStack(this.currentFocus);
 		
+		var currentMenu = this.menus[this.currentFocus.menu.name];
+		
 		// First Blur the current stuff.
 		// Menu *only* if menu changed.
-		if(this.currentFocus && menu != this.currentFocus.menu.name) {
-			this.menus[this.currentFocus.menu.name].fire("onBlur");
+		var newMenu = (this.currentFocus && menu != this.currentFocus.menu.name);
+		
+		currentMenu.fireItem(this.currentFocus.item, 'onBlur');
+		if(newMenu) {
+			$log(" Looks like menu changed, so blurring old menu ");
+			currentMenu.fire("onBlur");
 		}
-		this.menus[this.currentFocus.menu.name].fireItem(this.currentFocus.item, 'onBlur');
 		
-		this.currentFocus = {menu: this.menus[this.currentFocus.menu.name], item: item};
+		
 		this.currentMenu = this.menus[menu];
-		
-		this.menus[menu].fire("onFocus");
-		this.menus[menu].fire(item, "onFocus");
+		// only fire the main's onFocus if 
+		if(newMenu || !this.currentMenu.mainOnly()) )  {
+			$log("New Menu calling menu focus")
+			this.currentMenu.fire("onFocus");
+		}
+		$log("Firing focus of new item: " + item);
+		this.currentMenu.fireItem(item, "onFocus");
+		this.currentFocus = {menu: currentMenu, item: item};
 	},
 	
 	back: function() {
@@ -125,6 +142,18 @@ TVEngine.Navigation.Menu = function() {
 	_.extend(this, Backbone.Events);
 }
 
+
+TVEngine.Navigation.Menu.prototype.setFocused = function() {
+	if(!this.focused) {
+		this.fire("onFocus");
+		this._focused = true
+	}
+}
+TVEngine.Navigation.Menu.prototype.setBlurred = function() {
+	if(this.focused) {
+		this.fire("onBlur"); this._focused = false;
+	}
+}
 TVEngine.Navigation.Menu.prototype.mainOnly = function() {
 	return this._main;
 }
@@ -134,7 +163,7 @@ TVEngine.Navigation.Menu.prototype.menuHandlesEvents = function() {
 },
 
 TVEngine.Navigation.Menu.prototype.getDefaultItem = function() {
-	return this.defaultItem || this.items[_.first(_.keys(this.items))]
+	return this.defaultItem || _.first(_.keys(this.items))
 }
 
 TVEngine.Navigation.Menu.prototype.fire = function(handler, params) {
@@ -153,7 +182,7 @@ TVEngine.Navigation.Menu.prototype.fireItem = function(item, handler, params) {
 		this.fire(handler, params);
 		return;
 	}
-	if( this.items[item] && _.isFunction(this.items[item].events[handler])){
-		this.items[item].events[handler].call(this,params);
+	if( this.items[item] && _.isFunction(this.items[item][handler])){
+		this.items[item][handler].call(this,params);
 	}
 };

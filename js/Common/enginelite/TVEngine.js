@@ -32,6 +32,7 @@ TVEngine = {
 		$log("<<< ITEM LOADED >>>");
 		this._modulesToLoad = _.without(this._modulesToLoad, callback);
 		if (this._modulesToLoad.length == 0 ) {
+			$log(" NOT WAITING FOR MORE MODULES, TRIGGERING READY ")
 			this.trigger("tvengine:appready");
 		}
 	},
@@ -44,14 +45,11 @@ TVEngine = {
 		this.KeyHandler.init();
 		this.Navigation.init();
 		this._modulesToLoad = this._doneEvents;
-		
-			_.each(this.modules, function(m) {
-				$log(" <<< INIT MODULE "+m.name+ ">>> ");
-				$log(m)
-				if (_.isFunction(m.init))  m.init();
-				$log("<<< END INIT MODULE >>>")
-			});
-		
+		_.each(this.modules, function(m) {
+			$log(" <<< INIT MODULE "+m.name+ ">>> ");
+			if (_.isFunction(m.init))  m.init();
+			$log("<<< END INIT MODULE >>>");
+		});
 		$("<<< END TVEngine Start >>>");
 		var _this = this;
 		TVEngine.KeyHandler.bind("keyhandler:onExit", function() {
@@ -59,6 +57,7 @@ TVEngine = {
 			_this.getPlatform().exit(true);
 		})
 	},
+	
 	exit : function(fullexit) {
 		$log("********************************\n       EXIT     \n ********************************");
 		this.getPlatform().exit(fullexit);

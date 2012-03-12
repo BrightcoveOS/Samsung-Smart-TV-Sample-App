@@ -34,20 +34,28 @@
 				$log(this.name + ":first onRight");
 				TVEngine.Navigation.setFocus(this.name, "second");
 			},
+			onDown: function() {
+				TVEngine.Navigation.setFocus("enginelite.sampleMainOnlyMenu")
+			}
 		},
+		
 		"second": {
 			onFocus: function() {
-				$log(this.name + ":first onFocus");
+				$log(this.name + ":second onFocus");
 			},
 			onBlur: function() {
-				$log(this.name + ":first onBlur");
+				$log(this.name + ":second onBlur");
 			},
 			onLeft: function() {
 				$log(this.name + ":first onLeft");
 				TVEngine.Navigation.setFocus(this.name, "first");
 			},
+			onDown: function() {
+				TVEngine.Navigation.setFocus("enginelite.sampleMainOnlyMenu")
+			}
 		}
 	}
+	menu.defaultMenu = true;
 	// Register with Navigation.
 	TVEngine.Navigation.addMenu(menu);
 	
@@ -68,5 +76,10 @@
 	mainOnlyMenu.onLeft = function() {
 		$log(this.name+".onLeft");
 	}
+	mainOnlyMenu.onUp = function() {
+		TVEngine.Navigation.setFocus("enginelite.samplemenu");
+	}
+	// mainOnlyMenu.defaultMenu = true;
+	TVEngine.Navigation.addMenu(mainOnlyMenu);
 	
 })(TVEngine);

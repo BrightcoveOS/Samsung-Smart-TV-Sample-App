@@ -218,6 +218,12 @@ window.VideoCategoryTextMenuView = Backbone.View.extend({
 	This is the real meat of the interactions here. 
 *******************************************************************/
 TVEngine.bind("tvengine:appready", function() {
+	$log(" Enabling Navigation ");
+	$("#wrapper").fadeIn();
+	TVEngine.Navigation.start();
+	
+	
+	return;
 	
 	TVEngine.Tracker.trackEvent("Application", "Ready"); // Track events (right now using GA)
 

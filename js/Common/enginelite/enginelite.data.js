@@ -12,7 +12,7 @@
 // incoming data.
 
 TVEngine.DataLoader = {
-	_dataSets: [], _loaded: 0, _waterfalls: [],
+	_dataSets: [], _loaded: 0, _waterfalls: [], name: "Data Loader",
 	
 	addDataSet: function(set) {
 		if(set.key == null) throw("Trying to add Data item with no key, url: " + set.getUrl());

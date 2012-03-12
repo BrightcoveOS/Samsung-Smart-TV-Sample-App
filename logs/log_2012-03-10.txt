@@ -1,0 +1,635 @@
+2012-03-10 13:41:01 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:41:01 - INFO --> GETS: 5 
+2012-03-10 13:41:01 - INFO --> HERE 
+2012-03-10 13:41:01 - INFO --> HERE 
+2012-03-10 13:41:01 - INFO --> HERE 
+2012-03-10 13:41:01 - INFO --> HERE 
+2012-03-10 13:41:01 - INFO --> HERE 
+2012-03-10 13:41:01 - INFO --> HERE 
+2012-03-10 13:41:01 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 13:41:01 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:41:01 - INFO --> GETS: 6 
+2012-03-10 13:41:01 - INFO --> HERE 
+2012-03-10 13:41:01 - INFO --> HERE 
+2012-03-10 13:41:01 - INFO --> HERE 
+2012-03-10 13:41:01 - INFO --> HERE 
+2012-03-10 13:41:01 - INFO --> HERE 
+2012-03-10 13:41:01 - INFO --> HERE 
+2012-03-10 13:41:01 - INFO --> HERE 
+2012-03-10 13:41:02 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 13:44:48 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:44:48 - INFO --> GETS: 5 
+2012-03-10 13:44:48 - INFO --> HERE 
+2012-03-10 13:44:48 - INFO --> HERE 
+2012-03-10 13:44:48 - INFO --> HERE 
+2012-03-10 13:44:48 - INFO --> HERE 
+2012-03-10 13:44:48 - INFO --> HERE 
+2012-03-10 13:44:48 - INFO --> HERE 
+2012-03-10 13:44:48 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 13:44:48 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:44:48 - INFO --> GETS: 6 
+2012-03-10 13:44:48 - INFO --> HERE 
+2012-03-10 13:44:48 - INFO --> HERE 
+2012-03-10 13:44:48 - INFO --> HERE 
+2012-03-10 13:44:48 - INFO --> HERE 
+2012-03-10 13:44:48 - INFO --> HERE 
+2012-03-10 13:44:48 - INFO --> HERE 
+2012-03-10 13:44:48 - INFO --> HERE 
+2012-03-10 13:44:49 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 13:46:10 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:46:10 - INFO --> GETS: 5 
+2012-03-10 13:46:10 - INFO --> HERE 
+2012-03-10 13:46:10 - INFO --> HERE 
+2012-03-10 13:46:10 - INFO --> HERE 
+2012-03-10 13:46:10 - INFO --> HERE 
+2012-03-10 13:46:10 - INFO --> HERE 
+2012-03-10 13:46:10 - INFO --> HERE 
+2012-03-10 13:46:10 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 13:46:10 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:46:10 - INFO --> GETS: 6 
+2012-03-10 13:46:10 - INFO --> HERE 
+2012-03-10 13:46:10 - INFO --> HERE 
+2012-03-10 13:46:10 - INFO --> HERE 
+2012-03-10 13:46:10 - INFO --> HERE 
+2012-03-10 13:46:10 - INFO --> HERE 
+2012-03-10 13:46:10 - INFO --> HERE 
+2012-03-10 13:46:10 - INFO --> HERE 
+2012-03-10 13:46:11 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 13:46:59 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:46:59 - INFO --> GETS: 5 
+2012-03-10 13:46:59 - INFO --> HERE 
+2012-03-10 13:46:59 - INFO --> HERE 
+2012-03-10 13:46:59 - INFO --> HERE 
+2012-03-10 13:46:59 - INFO --> HERE 
+2012-03-10 13:46:59 - INFO --> HERE 
+2012-03-10 13:46:59 - INFO --> HERE 
+2012-03-10 13:46:59 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 13:46:59 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:46:59 - INFO --> GETS: 6 
+2012-03-10 13:46:59 - INFO --> HERE 
+2012-03-10 13:46:59 - INFO --> HERE 
+2012-03-10 13:46:59 - INFO --> HERE 
+2012-03-10 13:46:59 - INFO --> HERE 
+2012-03-10 13:46:59 - INFO --> HERE 
+2012-03-10 13:46:59 - INFO --> HERE 
+2012-03-10 13:46:59 - INFO --> HERE 
+2012-03-10 13:47:00 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 13:48:26 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:48:26 - INFO --> GETS: 5 
+2012-03-10 13:48:26 - INFO --> HERE 
+2012-03-10 13:48:26 - INFO --> HERE 
+2012-03-10 13:48:26 - INFO --> HERE 
+2012-03-10 13:48:26 - INFO --> HERE 
+2012-03-10 13:48:26 - INFO --> HERE 
+2012-03-10 13:48:26 - INFO --> HERE 
+2012-03-10 13:48:27 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 13:48:27 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:48:27 - INFO --> GETS: 6 
+2012-03-10 13:48:27 - INFO --> HERE 
+2012-03-10 13:48:27 - INFO --> HERE 
+2012-03-10 13:48:27 - INFO --> HERE 
+2012-03-10 13:48:27 - INFO --> HERE 
+2012-03-10 13:48:27 - INFO --> HERE 
+2012-03-10 13:48:27 - INFO --> HERE 
+2012-03-10 13:48:27 - INFO --> HERE 
+2012-03-10 13:48:28 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 13:49:46 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:49:46 - INFO --> GETS: 5 
+2012-03-10 13:49:46 - INFO --> HERE 
+2012-03-10 13:49:46 - INFO --> HERE 
+2012-03-10 13:49:46 - INFO --> HERE 
+2012-03-10 13:49:46 - INFO --> HERE 
+2012-03-10 13:49:46 - INFO --> HERE 
+2012-03-10 13:49:46 - INFO --> HERE 
+2012-03-10 13:49:47 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 13:49:47 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:49:47 - INFO --> GETS: 6 
+2012-03-10 13:49:47 - INFO --> HERE 
+2012-03-10 13:49:47 - INFO --> HERE 
+2012-03-10 13:49:47 - INFO --> HERE 
+2012-03-10 13:49:47 - INFO --> HERE 
+2012-03-10 13:49:47 - INFO --> HERE 
+2012-03-10 13:49:47 - INFO --> HERE 
+2012-03-10 13:49:47 - INFO --> HERE 
+2012-03-10 13:49:47 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 13:50:13 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:50:13 - INFO --> GETS: 5 
+2012-03-10 13:50:13 - INFO --> HERE 
+2012-03-10 13:50:13 - INFO --> HERE 
+2012-03-10 13:50:13 - INFO --> HERE 
+2012-03-10 13:50:13 - INFO --> HERE 
+2012-03-10 13:50:13 - INFO --> HERE 
+2012-03-10 13:50:13 - INFO --> HERE 
+2012-03-10 13:50:14 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 13:50:14 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:50:14 - INFO --> GETS: 6 
+2012-03-10 13:50:14 - INFO --> HERE 
+2012-03-10 13:50:14 - INFO --> HERE 
+2012-03-10 13:50:14 - INFO --> HERE 
+2012-03-10 13:50:14 - INFO --> HERE 
+2012-03-10 13:50:14 - INFO --> HERE 
+2012-03-10 13:50:14 - INFO --> HERE 
+2012-03-10 13:50:14 - INFO --> HERE 
+2012-03-10 13:50:14 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 13:51:26 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:51:26 - INFO --> GETS: 5 
+2012-03-10 13:51:26 - INFO --> HERE 
+2012-03-10 13:51:26 - INFO --> HERE 
+2012-03-10 13:51:26 - INFO --> HERE 
+2012-03-10 13:51:26 - INFO --> HERE 
+2012-03-10 13:51:26 - INFO --> HERE 
+2012-03-10 13:51:26 - INFO --> HERE 
+2012-03-10 13:51:27 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 13:51:27 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:51:27 - INFO --> GETS: 6 
+2012-03-10 13:51:27 - INFO --> HERE 
+2012-03-10 13:51:27 - INFO --> HERE 
+2012-03-10 13:51:27 - INFO --> HERE 
+2012-03-10 13:51:27 - INFO --> HERE 
+2012-03-10 13:51:27 - INFO --> HERE 
+2012-03-10 13:51:27 - INFO --> HERE 
+2012-03-10 13:51:27 - INFO --> HERE 
+2012-03-10 13:51:27 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 13:52:30 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:52:30 - INFO --> GETS: 5 
+2012-03-10 13:52:30 - INFO --> HERE 
+2012-03-10 13:52:30 - INFO --> HERE 
+2012-03-10 13:52:30 - INFO --> HERE 
+2012-03-10 13:52:30 - INFO --> HERE 
+2012-03-10 13:52:30 - INFO --> HERE 
+2012-03-10 13:52:30 - INFO --> HERE 
+2012-03-10 13:52:31 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 13:52:31 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:52:31 - INFO --> GETS: 6 
+2012-03-10 13:52:31 - INFO --> HERE 
+2012-03-10 13:52:31 - INFO --> HERE 
+2012-03-10 13:52:31 - INFO --> HERE 
+2012-03-10 13:52:31 - INFO --> HERE 
+2012-03-10 13:52:31 - INFO --> HERE 
+2012-03-10 13:52:31 - INFO --> HERE 
+2012-03-10 13:52:31 - INFO --> HERE 
+2012-03-10 13:52:31 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 13:52:48 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:52:48 - INFO --> GETS: 5 
+2012-03-10 13:52:48 - INFO --> HERE 
+2012-03-10 13:52:48 - INFO --> HERE 
+2012-03-10 13:52:48 - INFO --> HERE 
+2012-03-10 13:52:48 - INFO --> HERE 
+2012-03-10 13:52:48 - INFO --> HERE 
+2012-03-10 13:52:48 - INFO --> HERE 
+2012-03-10 13:52:48 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 13:52:48 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:52:48 - INFO --> GETS: 6 
+2012-03-10 13:52:48 - INFO --> HERE 
+2012-03-10 13:52:48 - INFO --> HERE 
+2012-03-10 13:52:48 - INFO --> HERE 
+2012-03-10 13:52:48 - INFO --> HERE 
+2012-03-10 13:52:48 - INFO --> HERE 
+2012-03-10 13:52:48 - INFO --> HERE 
+2012-03-10 13:52:48 - INFO --> HERE 
+2012-03-10 13:52:49 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 13:54:06 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:54:06 - INFO --> GETS: 5 
+2012-03-10 13:54:06 - INFO --> HERE 
+2012-03-10 13:54:06 - INFO --> HERE 
+2012-03-10 13:54:06 - INFO --> HERE 
+2012-03-10 13:54:06 - INFO --> HERE 
+2012-03-10 13:54:06 - INFO --> HERE 
+2012-03-10 13:54:06 - INFO --> HERE 
+2012-03-10 13:54:07 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 13:54:07 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:54:07 - INFO --> GETS: 6 
+2012-03-10 13:54:07 - INFO --> HERE 
+2012-03-10 13:54:07 - INFO --> HERE 
+2012-03-10 13:54:07 - INFO --> HERE 
+2012-03-10 13:54:07 - INFO --> HERE 
+2012-03-10 13:54:07 - INFO --> HERE 
+2012-03-10 13:54:07 - INFO --> HERE 
+2012-03-10 13:54:07 - INFO --> HERE 
+2012-03-10 13:54:07 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 13:54:38 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:54:38 - INFO --> GETS: 5 
+2012-03-10 13:54:38 - INFO --> HERE 
+2012-03-10 13:54:38 - INFO --> HERE 
+2012-03-10 13:54:38 - INFO --> HERE 
+2012-03-10 13:54:38 - INFO --> HERE 
+2012-03-10 13:54:38 - INFO --> HERE 
+2012-03-10 13:54:38 - INFO --> HERE 
+2012-03-10 13:54:38 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 13:54:38 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:54:38 - INFO --> GETS: 6 
+2012-03-10 13:54:38 - INFO --> HERE 
+2012-03-10 13:54:38 - INFO --> HERE 
+2012-03-10 13:54:38 - INFO --> HERE 
+2012-03-10 13:54:38 - INFO --> HERE 
+2012-03-10 13:54:38 - INFO --> HERE 
+2012-03-10 13:54:38 - INFO --> HERE 
+2012-03-10 13:54:38 - INFO --> HERE 
+2012-03-10 13:54:39 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 13:56:08 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:56:08 - INFO --> GETS: 5 
+2012-03-10 13:56:08 - INFO --> HERE 
+2012-03-10 13:56:08 - INFO --> HERE 
+2012-03-10 13:56:08 - INFO --> HERE 
+2012-03-10 13:56:08 - INFO --> HERE 
+2012-03-10 13:56:08 - INFO --> HERE 
+2012-03-10 13:56:08 - INFO --> HERE 
+2012-03-10 13:56:09 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 13:56:09 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:56:09 - INFO --> GETS: 6 
+2012-03-10 13:56:09 - INFO --> HERE 
+2012-03-10 13:56:09 - INFO --> HERE 
+2012-03-10 13:56:09 - INFO --> HERE 
+2012-03-10 13:56:09 - INFO --> HERE 
+2012-03-10 13:56:09 - INFO --> HERE 
+2012-03-10 13:56:09 - INFO --> HERE 
+2012-03-10 13:56:09 - INFO --> HERE 
+2012-03-10 13:56:09 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 13:57:34 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:57:34 - INFO --> GETS: 5 
+2012-03-10 13:57:34 - INFO --> HERE 
+2012-03-10 13:57:34 - INFO --> HERE 
+2012-03-10 13:57:34 - INFO --> HERE 
+2012-03-10 13:57:34 - INFO --> HERE 
+2012-03-10 13:57:34 - INFO --> HERE 
+2012-03-10 13:57:34 - INFO --> HERE 
+2012-03-10 13:57:34 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 13:57:34 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 13:57:34 - INFO --> GETS: 6 
+2012-03-10 13:57:34 - INFO --> HERE 
+2012-03-10 13:57:34 - INFO --> HERE 
+2012-03-10 13:57:34 - INFO --> HERE 
+2012-03-10 13:57:34 - INFO --> HERE 
+2012-03-10 13:57:34 - INFO --> HERE 
+2012-03-10 13:57:34 - INFO --> HERE 
+2012-03-10 13:57:34 - INFO --> HERE 
+2012-03-10 13:57:34 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 14:00:39 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:00:39 - INFO --> GETS: 5 
+2012-03-10 14:00:39 - INFO --> HERE 
+2012-03-10 14:00:39 - INFO --> HERE 
+2012-03-10 14:00:39 - INFO --> HERE 
+2012-03-10 14:00:39 - INFO --> HERE 
+2012-03-10 14:00:39 - INFO --> HERE 
+2012-03-10 14:00:39 - INFO --> HERE 
+2012-03-10 14:00:40 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 14:00:40 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:00:40 - INFO --> GETS: 6 
+2012-03-10 14:00:40 - INFO --> HERE 
+2012-03-10 14:00:40 - INFO --> HERE 
+2012-03-10 14:00:40 - INFO --> HERE 
+2012-03-10 14:00:40 - INFO --> HERE 
+2012-03-10 14:00:40 - INFO --> HERE 
+2012-03-10 14:00:40 - INFO --> HERE 
+2012-03-10 14:00:40 - INFO --> HERE 
+2012-03-10 14:00:41 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 14:02:19 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:02:19 - INFO --> GETS: 5 
+2012-03-10 14:02:19 - INFO --> HERE 
+2012-03-10 14:02:19 - INFO --> HERE 
+2012-03-10 14:02:19 - INFO --> HERE 
+2012-03-10 14:02:19 - INFO --> HERE 
+2012-03-10 14:02:19 - INFO --> HERE 
+2012-03-10 14:02:19 - INFO --> HERE 
+2012-03-10 14:02:20 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 14:02:20 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:02:20 - INFO --> GETS: 6 
+2012-03-10 14:02:20 - INFO --> HERE 
+2012-03-10 14:02:20 - INFO --> HERE 
+2012-03-10 14:02:20 - INFO --> HERE 
+2012-03-10 14:02:20 - INFO --> HERE 
+2012-03-10 14:02:20 - INFO --> HERE 
+2012-03-10 14:02:20 - INFO --> HERE 
+2012-03-10 14:02:20 - INFO --> HERE 
+2012-03-10 14:02:20 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 14:03:35 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:03:35 - INFO --> GETS: 5 
+2012-03-10 14:03:35 - INFO --> HERE 
+2012-03-10 14:03:35 - INFO --> HERE 
+2012-03-10 14:03:35 - INFO --> HERE 
+2012-03-10 14:03:35 - INFO --> HERE 
+2012-03-10 14:03:35 - INFO --> HERE 
+2012-03-10 14:03:35 - INFO --> HERE 
+2012-03-10 14:03:36 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 14:03:36 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:03:36 - INFO --> GETS: 6 
+2012-03-10 14:03:36 - INFO --> HERE 
+2012-03-10 14:03:36 - INFO --> HERE 
+2012-03-10 14:03:36 - INFO --> HERE 
+2012-03-10 14:03:36 - INFO --> HERE 
+2012-03-10 14:03:36 - INFO --> HERE 
+2012-03-10 14:03:36 - INFO --> HERE 
+2012-03-10 14:03:36 - INFO --> HERE 
+2012-03-10 14:03:37 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 14:04:54 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:04:54 - INFO --> GETS: 5 
+2012-03-10 14:04:54 - INFO --> HERE 
+2012-03-10 14:04:54 - INFO --> HERE 
+2012-03-10 14:04:54 - INFO --> HERE 
+2012-03-10 14:04:54 - INFO --> HERE 
+2012-03-10 14:04:54 - INFO --> HERE 
+2012-03-10 14:04:54 - INFO --> HERE 
+2012-03-10 14:04:55 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 14:04:55 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:04:55 - INFO --> GETS: 6 
+2012-03-10 14:04:55 - INFO --> HERE 
+2012-03-10 14:04:55 - INFO --> HERE 
+2012-03-10 14:04:55 - INFO --> HERE 
+2012-03-10 14:04:55 - INFO --> HERE 
+2012-03-10 14:04:55 - INFO --> HERE 
+2012-03-10 14:04:55 - INFO --> HERE 
+2012-03-10 14:04:55 - INFO --> HERE 
+2012-03-10 14:04:55 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 14:05:41 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:05:41 - INFO --> GETS: 5 
+2012-03-10 14:05:41 - INFO --> HERE 
+2012-03-10 14:05:41 - INFO --> HERE 
+2012-03-10 14:05:41 - INFO --> HERE 
+2012-03-10 14:05:41 - INFO --> HERE 
+2012-03-10 14:05:41 - INFO --> HERE 
+2012-03-10 14:05:41 - INFO --> HERE 
+2012-03-10 14:05:42 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 14:05:42 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:05:42 - INFO --> GETS: 6 
+2012-03-10 14:05:42 - INFO --> HERE 
+2012-03-10 14:05:42 - INFO --> HERE 
+2012-03-10 14:05:42 - INFO --> HERE 
+2012-03-10 14:05:42 - INFO --> HERE 
+2012-03-10 14:05:42 - INFO --> HERE 
+2012-03-10 14:05:42 - INFO --> HERE 
+2012-03-10 14:05:42 - INFO --> HERE 
+2012-03-10 14:05:42 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 14:07:26 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:07:26 - INFO --> GETS: 5 
+2012-03-10 14:07:26 - INFO --> HERE 
+2012-03-10 14:07:26 - INFO --> HERE 
+2012-03-10 14:07:26 - INFO --> HERE 
+2012-03-10 14:07:26 - INFO --> HERE 
+2012-03-10 14:07:26 - INFO --> HERE 
+2012-03-10 14:07:26 - INFO --> HERE 
+2012-03-10 14:07:26 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 14:07:26 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:07:26 - INFO --> GETS: 6 
+2012-03-10 14:07:26 - INFO --> HERE 
+2012-03-10 14:07:26 - INFO --> HERE 
+2012-03-10 14:07:26 - INFO --> HERE 
+2012-03-10 14:07:26 - INFO --> HERE 
+2012-03-10 14:07:26 - INFO --> HERE 
+2012-03-10 14:07:26 - INFO --> HERE 
+2012-03-10 14:07:26 - INFO --> HERE 
+2012-03-10 14:07:26 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 14:09:14 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:09:14 - INFO --> GETS: 5 
+2012-03-10 14:09:14 - INFO --> HERE 
+2012-03-10 14:09:14 - INFO --> HERE 
+2012-03-10 14:09:14 - INFO --> HERE 
+2012-03-10 14:09:14 - INFO --> HERE 
+2012-03-10 14:09:14 - INFO --> HERE 
+2012-03-10 14:09:14 - INFO --> HERE 
+2012-03-10 14:09:15 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 14:09:15 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:09:15 - INFO --> GETS: 6 
+2012-03-10 14:09:15 - INFO --> HERE 
+2012-03-10 14:09:15 - INFO --> HERE 
+2012-03-10 14:09:15 - INFO --> HERE 
+2012-03-10 14:09:15 - INFO --> HERE 
+2012-03-10 14:09:15 - INFO --> HERE 
+2012-03-10 14:09:15 - INFO --> HERE 
+2012-03-10 14:09:15 - INFO --> HERE 
+2012-03-10 14:09:15 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 14:13:15 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:13:15 - INFO --> GETS: 5 
+2012-03-10 14:13:15 - INFO --> HERE 
+2012-03-10 14:13:15 - INFO --> HERE 
+2012-03-10 14:13:15 - INFO --> HERE 
+2012-03-10 14:13:15 - INFO --> HERE 
+2012-03-10 14:13:15 - INFO --> HERE 
+2012-03-10 14:13:15 - INFO --> HERE 
+2012-03-10 14:13:16 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 14:13:16 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:13:16 - INFO --> GETS: 6 
+2012-03-10 14:13:16 - INFO --> HERE 
+2012-03-10 14:13:16 - INFO --> HERE 
+2012-03-10 14:13:16 - INFO --> HERE 
+2012-03-10 14:13:16 - INFO --> HERE 
+2012-03-10 14:13:16 - INFO --> HERE 
+2012-03-10 14:13:16 - INFO --> HERE 
+2012-03-10 14:13:16 - INFO --> HERE 
+2012-03-10 14:13:16 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 14:20:07 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:20:07 - INFO --> GETS: 5 
+2012-03-10 14:20:07 - INFO --> HERE 
+2012-03-10 14:20:07 - INFO --> HERE 
+2012-03-10 14:20:07 - INFO --> HERE 
+2012-03-10 14:20:07 - INFO --> HERE 
+2012-03-10 14:20:07 - INFO --> HERE 
+2012-03-10 14:20:07 - INFO --> HERE 
+2012-03-10 14:20:08 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 14:20:08 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:20:08 - INFO --> GETS: 6 
+2012-03-10 14:20:08 - INFO --> HERE 
+2012-03-10 14:20:08 - INFO --> HERE 
+2012-03-10 14:20:08 - INFO --> HERE 
+2012-03-10 14:20:08 - INFO --> HERE 
+2012-03-10 14:20:08 - INFO --> HERE 
+2012-03-10 14:20:08 - INFO --> HERE 
+2012-03-10 14:20:08 - INFO --> HERE 
+2012-03-10 14:20:08 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 14:21:39 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:21:39 - INFO --> GETS: 5 
+2012-03-10 14:21:39 - INFO --> HERE 
+2012-03-10 14:21:39 - INFO --> HERE 
+2012-03-10 14:21:39 - INFO --> HERE 
+2012-03-10 14:21:39 - INFO --> HERE 
+2012-03-10 14:21:39 - INFO --> HERE 
+2012-03-10 14:21:39 - INFO --> HERE 
+2012-03-10 14:21:39 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 14:21:40 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:21:40 - INFO --> GETS: 6 
+2012-03-10 14:21:40 - INFO --> HERE 
+2012-03-10 14:21:40 - INFO --> HERE 
+2012-03-10 14:21:40 - INFO --> HERE 
+2012-03-10 14:21:40 - INFO --> HERE 
+2012-03-10 14:21:40 - INFO --> HERE 
+2012-03-10 14:21:40 - INFO --> HERE 
+2012-03-10 14:21:40 - INFO --> HERE 
+2012-03-10 14:21:40 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 14:22:34 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:22:34 - INFO --> GETS: 5 
+2012-03-10 14:22:34 - INFO --> HERE 
+2012-03-10 14:22:34 - INFO --> HERE 
+2012-03-10 14:22:34 - INFO --> HERE 
+2012-03-10 14:22:34 - INFO --> HERE 
+2012-03-10 14:22:34 - INFO --> HERE 
+2012-03-10 14:22:34 - INFO --> HERE 
+2012-03-10 14:22:45 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 14:22:45 - INFO --> GETS: 5 
+2012-03-10 14:22:45 - INFO --> HERE 
+2012-03-10 14:22:45 - INFO --> HERE 
+2012-03-10 14:22:45 - INFO --> HERE 
+2012-03-10 14:22:45 - INFO --> HERE 
+2012-03-10 14:22:45 - INFO --> HERE 
+2012-03-10 14:22:45 - INFO --> HERE 
+2012-03-10 14:23:04 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 14:23:15 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 15:47:34 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 15:47:35 - INFO --> GETS: 5 
+2012-03-10 15:47:35 - INFO --> HERE 
+2012-03-10 15:47:35 - INFO --> HERE 
+2012-03-10 15:47:35 - INFO --> HERE 
+2012-03-10 15:47:35 - INFO --> HERE 
+2012-03-10 15:47:35 - INFO --> HERE 
+2012-03-10 15:47:35 - INFO --> HERE 
+2012-03-10 15:47:36 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 15:47:36 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 15:47:36 - INFO --> GETS: 6 
+2012-03-10 15:47:36 - INFO --> HERE 
+2012-03-10 15:47:36 - INFO --> HERE 
+2012-03-10 15:47:36 - INFO --> HERE 
+2012-03-10 15:47:36 - INFO --> HERE 
+2012-03-10 15:47:36 - INFO --> HERE 
+2012-03-10 15:47:36 - INFO --> HERE 
+2012-03-10 15:47:36 - INFO --> HERE 
+2012-03-10 15:47:36 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 15:50:20 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 15:50:20 - INFO --> GETS: 5 
+2012-03-10 15:50:20 - INFO --> HERE 
+2012-03-10 15:50:20 - INFO --> HERE 
+2012-03-10 15:50:20 - INFO --> HERE 
+2012-03-10 15:50:20 - INFO --> HERE 
+2012-03-10 15:50:20 - INFO --> HERE 
+2012-03-10 15:50:20 - INFO --> HERE 
+2012-03-10 15:50:21 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 15:50:21 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 15:50:21 - INFO --> GETS: 6 
+2012-03-10 15:50:21 - INFO --> HERE 
+2012-03-10 15:50:21 - INFO --> HERE 
+2012-03-10 15:50:21 - INFO --> HERE 
+2012-03-10 15:50:21 - INFO --> HERE 
+2012-03-10 15:50:21 - INFO --> HERE 
+2012-03-10 15:50:21 - INFO --> HERE 
+2012-03-10 15:50:21 - INFO --> HERE 
+2012-03-10 15:50:21 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 15:51:00 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 15:51:00 - INFO --> GETS: 5 
+2012-03-10 15:51:00 - INFO --> HERE 
+2012-03-10 15:51:00 - INFO --> HERE 
+2012-03-10 15:51:00 - INFO --> HERE 
+2012-03-10 15:51:00 - INFO --> HERE 
+2012-03-10 15:51:00 - INFO --> HERE 
+2012-03-10 15:51:00 - INFO --> HERE 
+2012-03-10 15:51:01 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 15:51:01 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 15:51:01 - INFO --> GETS: 6 
+2012-03-10 15:51:01 - INFO --> HERE 
+2012-03-10 15:51:01 - INFO --> HERE 
+2012-03-10 15:51:01 - INFO --> HERE 
+2012-03-10 15:51:01 - INFO --> HERE 
+2012-03-10 15:51:01 - INFO --> HERE 
+2012-03-10 15:51:01 - INFO --> HERE 
+2012-03-10 15:51:01 - INFO --> HERE 
+2012-03-10 15:51:01 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 15:52:40 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 15:52:40 - INFO --> GETS: 5 
+2012-03-10 15:52:40 - INFO --> HERE 
+2012-03-10 15:52:40 - INFO --> HERE 
+2012-03-10 15:52:40 - INFO --> HERE 
+2012-03-10 15:52:40 - INFO --> HERE 
+2012-03-10 15:52:40 - INFO --> HERE 
+2012-03-10 15:52:40 - INFO --> HERE 
+2012-03-10 15:52:41 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 15:52:41 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 15:52:41 - INFO --> GETS: 6 
+2012-03-10 15:52:41 - INFO --> HERE 
+2012-03-10 15:52:41 - INFO --> HERE 
+2012-03-10 15:52:41 - INFO --> HERE 
+2012-03-10 15:52:41 - INFO --> HERE 
+2012-03-10 15:52:41 - INFO --> HERE 
+2012-03-10 15:52:41 - INFO --> HERE 
+2012-03-10 15:52:41 - INFO --> HERE 
+2012-03-10 15:52:42 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 15:54:18 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 15:54:18 - INFO --> GETS: 5 
+2012-03-10 15:54:18 - INFO --> HERE 
+2012-03-10 15:54:18 - INFO --> HERE 
+2012-03-10 15:54:18 - INFO --> HERE 
+2012-03-10 15:54:18 - INFO --> HERE 
+2012-03-10 15:54:18 - INFO --> HERE 
+2012-03-10 15:54:18 - INFO --> HERE 
+2012-03-10 15:54:18 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 15:54:19 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 15:54:19 - INFO --> GETS: 6 
+2012-03-10 15:54:19 - INFO --> HERE 
+2012-03-10 15:54:19 - INFO --> HERE 
+2012-03-10 15:54:19 - INFO --> HERE 
+2012-03-10 15:54:19 - INFO --> HERE 
+2012-03-10 15:54:19 - INFO --> HERE 
+2012-03-10 15:54:19 - INFO --> HERE 
+2012-03-10 15:54:19 - INFO --> HERE 
+2012-03-10 15:54:19 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 15:54:53 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 15:54:53 - INFO --> GETS: 5 
+2012-03-10 15:54:53 - INFO --> HERE 
+2012-03-10 15:54:53 - INFO --> HERE 
+2012-03-10 15:54:53 - INFO --> HERE 
+2012-03-10 15:54:53 - INFO --> HERE 
+2012-03-10 15:54:53 - INFO --> HERE 
+2012-03-10 15:54:53 - INFO --> HERE 
+2012-03-10 15:54:54 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 15:54:54 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 15:54:54 - INFO --> GETS: 6 
+2012-03-10 15:54:54 - INFO --> HERE 
+2012-03-10 15:54:54 - INFO --> HERE 
+2012-03-10 15:54:54 - INFO --> HERE 
+2012-03-10 15:54:54 - INFO --> HERE 
+2012-03-10 15:54:54 - INFO --> HERE 
+2012-03-10 15:54:54 - INFO --> HERE 
+2012-03-10 15:54:54 - INFO --> HERE 
+2012-03-10 15:54:54 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 15:56:45 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 15:56:45 - INFO --> GETS: 5 
+2012-03-10 15:56:45 - INFO --> HERE 
+2012-03-10 15:56:45 - INFO --> HERE 
+2012-03-10 15:56:45 - INFO --> HERE 
+2012-03-10 15:56:45 - INFO --> HERE 
+2012-03-10 15:56:45 - INFO --> HERE 
+2012-03-10 15:56:45 - INFO --> HERE 
+2012-03-10 15:56:45 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 15:56:47 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 15:56:47 - INFO --> GETS: 5 
+2012-03-10 15:56:47 - INFO --> HERE 
+2012-03-10 15:56:47 - INFO --> HERE 
+2012-03-10 15:56:47 - INFO --> HERE 
+2012-03-10 15:56:47 - INFO --> HERE 
+2012-03-10 15:56:47 - INFO --> HERE 
+2012-03-10 15:56:47 - INFO --> HERE 
+2012-03-10 15:56:47 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 15:56:47 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 15:56:47 - INFO --> GETS: 6 
+2012-03-10 15:56:47 - INFO --> HERE 
+2012-03-10 15:56:47 - INFO --> HERE 
+2012-03-10 15:56:47 - INFO --> HERE 
+2012-03-10 15:56:47 - INFO --> HERE 
+2012-03-10 15:56:47 - INFO --> HERE 
+2012-03-10 15:56:47 - INFO --> HERE 
+2012-03-10 15:56:47 - INFO --> HERE 
+2012-03-10 15:56:48 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
+2012-03-10 15:57:25 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 15:57:25 - INFO --> GETS: 5 
+2012-03-10 15:57:25 - INFO --> HERE 
+2012-03-10 15:57:25 - INFO --> HERE 
+2012-03-10 15:57:25 - INFO --> HERE 
+2012-03-10 15:57:25 - INFO --> HERE 
+2012-03-10 15:57:25 - INFO --> HERE 
+2012-03-10 15:57:25 - INFO --> HERE 
+2012-03-10 15:57:26 - INFO --> Current Url: http://api.brightcove.com/services/library?&command=find_playlists_for_player_id&player_id=1409917605001&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&playlist_fields=id%2Cname 
+2012-03-10 15:57:26 - INFO --> Current Url: http://api.brightcove.com/services/library 
+2012-03-10 15:57:26 - INFO --> GETS: 6 
+2012-03-10 15:57:26 - INFO --> HERE 
+2012-03-10 15:57:26 - INFO --> HERE 
+2012-03-10 15:57:26 - INFO --> HERE 
+2012-03-10 15:57:26 - INFO --> HERE 
+2012-03-10 15:57:26 - INFO --> HERE 
+2012-03-10 15:57:26 - INFO --> HERE 
+2012-03-10 15:57:26 - INFO --> HERE 
+2012-03-10 15:57:26 - INFO --> Current Url: http://api.brightcove.com/services/library?&playlist_ids=1428520818001%2C1428520817001%2C1317618415001&command=find_playlists_by_ids&token=y-3pyd7Twd_EE0ApO83dE8kmk1aGH4gu1QRtXwFn94mrjf65N3etoQ..&media_delivery=http&video_fields=id%2Cname%2CshortDescription%2ClongDescription%2Ctags%2CthumbnailURL%2CvideoStillURL%2Crenditions 
