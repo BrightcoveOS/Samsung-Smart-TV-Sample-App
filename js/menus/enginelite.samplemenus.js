@@ -57,7 +57,7 @@
 	}
 	menu.defaultMenu = true;
 	// Register with Navigation.
-	TVEngine.Navigation.addMenu(menu);
+	// TVEngine.Navigation.addMenu(menu);
 	
 	var mainOnlyMenu = new TVEngine.Navigation.Menu();
 	mainOnlyMenu.name = "enginelite.sampleMainOnlyMenu";
@@ -80,6 +80,6 @@
 		TVEngine.Navigation.setFocus("enginelite.samplemenu");
 	}
 	// mainOnlyMenu.defaultMenu = true;
-	TVEngine.Navigation.addMenu(mainOnlyMenu);
+	// TVEngine.Navigation.addMenu(mainOnlyMenu);
 	
 })(TVEngine);

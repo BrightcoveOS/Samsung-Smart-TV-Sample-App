@@ -101,7 +101,7 @@ TVEngine.Navigation = {
 		
 		this.currentMenu = this.menus[menu];
 		// only fire the main's onFocus if 
-		if(newMenu || !this.currentMenu.mainOnly()) )  {
+		if(newMenu || !this.currentMenu.mainOnly() )  {
 			$log("New Menu calling menu focus")
 			this.currentMenu.fire("onFocus");
 		}

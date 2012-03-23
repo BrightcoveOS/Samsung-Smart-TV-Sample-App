@@ -191,6 +191,6 @@
 	}
 	
 	
-	// menu.defaultMenu = true;
+	menu.defaultMenu = true;
 	TVEngine.Navigation.addMenu(menu);
 })(TVEngine);

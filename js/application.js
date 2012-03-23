@@ -47,6 +47,7 @@ var feeds = [];
 var data = new TVEngine.DataLoader.Data();
 //data.url = "http://stubby.adifferentengine.com/b.json";
 data.url = TVAppConfig.BrightcoveConfig.apiURL;
+data.dataType = "jsonp";
 data.params = _.extend({
 	"command": 		"find_playlists_for_player_id",
 	"player_id": 	TVAppConfig.BrightcoveConfig.playerID,  
@@ -73,7 +74,7 @@ feeds.push(data);
 
 var data = new TVEngine.DataLoader.Data();
 data.url = TVAppConfig.BrightcoveConfig.apiURL;
-
+data.dataType = "jsonp";
 
 data.params = _.extend({
 	"command": "find_playlists_by_ids", 
@@ -221,9 +222,6 @@ TVEngine.bind("tvengine:appready", function() {
 	$log(" Enabling Navigation ");
 	$("#wrapper").fadeIn();
 	TVEngine.Navigation.start();
-	
-	
-	return;
 	
 	TVEngine.Tracker.trackEvent("Application", "Ready"); // Track events (right now using GA)
 

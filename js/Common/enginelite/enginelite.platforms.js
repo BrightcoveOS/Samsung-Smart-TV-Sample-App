@@ -151,8 +151,9 @@ TVEngine.Platform.prototype.proxy = function() {
 /* The first default platform "browser" */
 ;(function(){
 	var browser = new TVEngine.Platform('browser');
-	browser.needsProxy = true;
+	// browser.needsProxy = true;
 	// We want this to fail, and get added as default
+	browser.setResolution(1280,720);
 	browser.defaultPlatform = true;
 	TVEngine.Platforms.addSupportedPlatform(browser);
 }());
