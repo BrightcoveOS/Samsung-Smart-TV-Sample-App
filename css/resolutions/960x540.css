@@ -122,7 +122,7 @@ video {
 div.videoCategory {
 	height: 183px;
 	width: 400000px;
-	margin-bottom: 25px;
+/*  margin-bottom: 25px;*/
 }
 div.vidItem {
 	display: inline-block;

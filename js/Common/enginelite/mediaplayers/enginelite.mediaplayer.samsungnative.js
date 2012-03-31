@@ -103,7 +103,7 @@ TVEngine.MediaPlayer = {
 		_playVideo: function() {
 			this.plugin.Stop();
 			this.streamready = false;
-			this.trigger("mediaplayer:onplay");
+			this.trigger("mediaplayer:onplay", this.playlist.currentItemIndex());
 			if ( this.plugin.Play(this.currentStream.url)) {
 				this.state = this.PLAYING;
 			} else {
@@ -254,8 +254,8 @@ TVEngine.MediaPlayer = {
 		this.trigger("mediaplayer:timeupdate", currentTime);
 	},
 	streamEnded: function() {
+	  this.trigger("mediaplayer:mediaend", this.playlist.currentItemIndex());
 		this.nextVideo();
-		this.trigger("mediaplayer:mediaend");
 	},
 	mute: function(mute) {
 		this.trigger("mediaplayer:muted", mute);

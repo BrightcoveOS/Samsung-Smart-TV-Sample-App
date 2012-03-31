@@ -79,7 +79,6 @@ TVEngine.Playlist = function() {
 	[
 	 	{
 	 		// First Video
-			isAd: false,
 			renditions: [
 				{
 					url: "http://testvids.adifferentengine.com/MyTest-400.mp4",

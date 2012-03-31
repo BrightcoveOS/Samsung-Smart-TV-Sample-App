@@ -25,6 +25,7 @@ TVEngine.MediaPlayer = {
 	
 	setPlaylist: function(playlist) {
 		$log(" Setting new Playlist ");
+		this.trigger("mediaplayer:onnewplaylist", playlist);
 		this.stop(true);
 		this.playlist = playlist;
 		this.currentIndex = 0;
@@ -70,7 +71,6 @@ TVEngine.MediaPlayer = {
 		$log(" SETTING CURRENT STREAM TO: " + this.currentStream.url);
 		$(this._videoElement).attr('autoplay', 'play');
 		$(this._videoElement).attr('src',this.currentStream.url);
-		$log(this._videoElement);
 		this._videoElement.load();
 		// this._videoElement.play();
 		this.wasMuted = this._videoElement.muted;
@@ -190,17 +190,16 @@ TVEngine.MediaPlayer = {
 				this.trigger("mediaplayer:bufferingend");
 				break;
 			case 'ended':
-				this.trigger("mediaplayer:mediaend");
+				this.trigger("mediaplayer:mediaend", this.playlist.currentItemIndex());
 				this.nextVideo();
 				break;
 			case 'play':
-				this.trigger("mediaplayer:play");
+				this.trigger("mediaplayer:play", this.playlist.currentItemIndex());
 				break;
 			case 'pause':
 				this.trigger("mediaplayer:pause");
 				break;
 			case 'error':
-				
 				$(this._videoElement).remove();
 				this._createVideoTag();
 				this.trigger("mediaplayer:videoerror");

@@ -11,7 +11,7 @@ TVAppConfig.BrightcoveConfig = {
 		
 	// Replace with your Samsung Player ID
 	playerID: "1409917605001",
-		
+	publisherID: "UNKNOWN",
 	// If this needs to change
 	apiURL: "http://api.brightcove.com/services/library",
 	
@@ -278,7 +278,10 @@ var handleMenuSelection = function(items) {
 }
 
 var playVideo = function(currentPlaylist, currentIndex) {
-	
+	if( TVEngine.Tracker.Brightcove ) {
+	  // Right now this has to happen before setting a new playlist.
+	  TVEngine.Tracker.Brightcove.init(TVAppConfig.BrightcoveConfig.playerID, TVAppConfig.BrightcoveConfig.publisherID, currentPlaylist );
+	}
 	// There's very much a cleaner way to do this.
 	// if( false ) {
 	if( TVEngine.AdVendors.VastPreroll ) {
@@ -287,7 +290,6 @@ var playVideo = function(currentPlaylist, currentIndex) {
 			TVEngine.MediaPlayer.setPlaylist(currentPlaylist.playlist);
 			TVEngine.MediaPlayer.setCurrentIndex(currentIndex);
 			TVEngine.MediaPlayer.play();
-
 			TVEngine.MediaPlayer.bind("mediaplayer:onnextvideo", function(index) {
 				$log(" Got onnextvideo event ");
 				$("#nowPlayingTitle").text(currentPlaylist.videos[index].name)
@@ -301,13 +303,11 @@ var playVideo = function(currentPlaylist, currentIndex) {
 
 			$("#nowPlayingTitle").text(currentPlaylist.videos[currentIndex].name);
 			TVEngine.Tracker.trackEvent("Videos", "Play", currentPlaylist.videos[currentIndex].name);
-		
 		});
 	} else {
 		TVEngine.MediaPlayer.setPlaylist(currentPlaylist.playlist);
 		TVEngine.MediaPlayer.setCurrentIndex(currentIndex);
 		TVEngine.MediaPlayer.play();
-
 		TVEngine.MediaPlayer.bind("mediaplayer:onnextvideo", function(index) {
 			$("#nowPlayingTitle").text(currentPlaylist.videos[index].name)
 			TVEngine.Tracker.trackEvent("Videos", "Play", currentPlaylist.videos[index].name);
@@ -335,7 +335,7 @@ var showVideo = function(currentPlaylist, currentIndex) {
 	$("#videoPage").fadeIn();
 	TVEngine.KeyHandler.bind("all", touchVideoInfoTimeout);
 	touchVideoInfoTimeout();
-	
+	$log(" here? ");
 }
 
 

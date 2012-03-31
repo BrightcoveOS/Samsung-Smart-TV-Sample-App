@@ -1,6 +1,6 @@
 (function() {
 	var platform = new TVEngine.Platform('googletv');
-	platform.setResolution(960,540);
+	platform.setResolution(1280,720);
 	platform.detectPlatform = function() {
 		if(navigator.appCodeName.search(/Maple/) > -1) {
 			return true;

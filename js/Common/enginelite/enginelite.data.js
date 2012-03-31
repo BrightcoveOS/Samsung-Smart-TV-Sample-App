@@ -43,7 +43,6 @@ TVEngine.DataLoader = {
 		_.each(this._dataSets, function(data) {
 			$log(" Fetching data from url: " + data.getUrl() + " data type: " + data.dataType)
 			$.ajax({
-				// url: data.getProxiedUrl(),
 				url: data.getUrl(),
 				dataType: data.dataType,
 				data: data.getParams(),
@@ -78,6 +77,7 @@ TVEngine.DataStore = {
 	}
 }
 _.extend(TVEngine.DataLoader, Backbone.Events);
+
 TVEngine.addModule('DataLoader', TVEngine.DataLoader, {
 	callbacks: ['dataloader:loaded']
 });
@@ -146,30 +146,7 @@ TVEngine.DataLoader.Data.prototype.getUrl = function() {
 	return this.url;
 }
 
-
-
-TVEngine.DataLoader.Data.prototype.getProxiedUrl = function() {
-	var platform = TVEngine.getPlatform();
-	if(platform && platform.proxy() !== "" ) {
-		var url = this.getUrl(), params = this.getParams();
-		if( params && this.method == "GET" ) url += "?" + escape($.param(params));
-		return platform.proxy() + url;
-	} else {
-		return this.getUrl();
-	}
-}
-
 // Can Override.
 TVEngine.DataLoader.Data.prototype.getParams = function() {
 	return this.params;
-}
-
-TVEngine.DataLoader.Data.prototype.getProxiedData = function() {
-	// We're using the proxy 
-	var platform = TVEngine.getPlatform();
-	if(platform && platform.proxy().length > 0 && this.method == "GET" ) {
-		return null
-	} else {
-		return this.getParams();
-	}
 }

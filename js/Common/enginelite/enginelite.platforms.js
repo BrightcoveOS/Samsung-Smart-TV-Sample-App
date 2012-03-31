@@ -43,20 +43,19 @@ TVEngine.Platforms = {
 		this.platform.addPlatformCSS();
 		this.platform.fetchMediaPlayer();
 		
-		// Going to add our proxy stuff if needed
+		// Going to add our proxy adding an ajax prefilter to switch to route the url
+		// through a proxy for cross domain requests.
 		var platform = this.platform;
 		if(_.isFunction($.ajaxPrefilter)) {
 			$.ajaxPrefilter( function(options, originalOptions) {
 				var proxy = platform.proxy();
 				if( proxy !== "" ) {
 					// Create the URL.
-					
 					var data = originalOptions.data || {};
 					data['url'] = originalOptions.url;
 					options.data = $.param(data);
 					options.url = proxy;
 				}
-				$log(options)
 			});
 		}
 
@@ -72,10 +71,10 @@ TVEngine.Platform = function(name) {
 	this.exit = $noop;
 	this._keys = {
 		KEY_RETURN: 	36, //8
-	    KEY_UP: 	   	38,
-	    KEY_DOWN: 		40,
-	    KEY_LEFT: 		37,
-	    KEY_RIGHT: 		39,
+		KEY_UP: 	   	38,
+		KEY_DOWN: 		40,
+		KEY_LEFT: 		37,
+		KEY_RIGHT: 		39,
 		KEY_ENTER: 		13,
 		KEY_RED: 		65,
 		KEY_GREEN: 		66,

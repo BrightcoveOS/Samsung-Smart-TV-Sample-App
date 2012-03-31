@@ -126,7 +126,7 @@
 			this.resetItems();
 			$("#playlists").css({left: 0});
 			$("#playlists").animate({
-				top: '+=208'
+				top: '+='+$(".videoCategory:first").outerHeight(true),
 			});
 			
 			$("#playlistsNav").animate({
@@ -162,7 +162,7 @@
 			this.currentY++;
 			this.resetItems();
 			$("#playlists").css({left: 0});
-			$("#playlists").animate({ top: '-=208' })
+			$("#playlists").animate({ top: '-='+$(".videoCategory:first").outerHeight(true) })
 			$("#playlistsNav").animate({
 				top: -(this.currentY * $("#playlistsNav li:first").outerHeight(true))
 			},null,null, function() {

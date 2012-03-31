@@ -71,11 +71,7 @@ TVEngine = {
 		}
 	},
 	
-	getProxiedUrl: function(url) {
-		var platform = this.getPlatform();
-		return platform.proxy() + url;
-	},
-	
+
 	
 	util : {
 		error : function(msg) {
@@ -202,8 +198,10 @@ $(window).load(function() {
 
 // JQuery ajax likes to run in a try/catch style sceneario, lets capture these
 $("<div />").ajaxError(function(e, aj, settings, exception) {
+  $log(" ___ AJAX ERROR ___ ");
 	$error(exception);
 	$error(settings)
+	$log(" ___ END AJAX ERROR ___ ");
 })
 TVEngine.Tracker = {
 	trackEvent: function(category, action, label, value) {
