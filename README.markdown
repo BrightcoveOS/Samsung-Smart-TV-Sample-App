@@ -44,8 +44,8 @@ Sign up for an account and download the Samsung Smart TV SDK.
 
 * Get a Brightcove customer token with read and URL access. This can be found under Account Settings > API Management
 * Create a custom Brightcove player using one of the multi-playlist player templates. Make note of the ID number of this player. You will need it for configuration settings.
-* Create at least one playlist for your Roku content. 
-    Each playlist will appear as a category section in the Roku Application. 
+* Create at least one playlist for your Samsung-targeted content. 
+    Each playlist will appear as a category section in the Samsung Application. 
 
 ###Configure the app###
 * config.xml is documented in the [Samsung user guide](http://www.samsungdforum.com/Guide/View/Developer_Documentation/Samsung_SmartTV_Developer_Documentation_3.0/Getting_Started/Application_Development_Process/Implementing_Your_Application_Code/Coding_Your_JavaScript_Application), but you want to note the path to the icons for the application, the width and height of your target resolution, as well as the name of your application.
